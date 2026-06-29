@@ -117,7 +117,7 @@ La rutina de `SCROLL.exe` implementa una copia de bloque de memoria de video usa
 
 ## Contexto historico
 
-Karel el Robot es un lenguaje de programacion educativo disenado para ensenanza de programacion estructurada, creado originalmente por Richard Pattis en la Universidad de Stanford en 1981. Esta implementacion en GW-BASIC para MS-DOS fue utilizada en ensenanza universitaria en Espana durante la decada de los 90 y constituye un ejemplo representativo del software educativo de la epoca que, sin esfuerzos de recuperacion activos, habria quedado perdido definitivamente.
+Karel el Robot es un lenguaje de programacion educativo disenado para ensenanza de programacion estructurada, creado originalmente por Richard Pattis en la Universidad de Stanford en 1981. Esta implementacion en GW-BASIC para MS-DOS fue utilizada en enseñanza universitaria en España durante la decada de los 90 y constituye un ejemplo de software educativo de la epoca que, sin esfuerzos de recuperacion activos, habria quedado perdido definitivamente.
 
 ---
 
