@@ -1,6 +1,6 @@
 # Karel MS-DOS — Recuperacion de Software Legado en GW-BASIC
 
-Este repositorio contiene el trabajo de recuperacion, analisis y adaptacion del entorno educativo **Karel el Robot** para MS-DOS, escrito originalmente en **GW-BASIC** en los anos 90. El proyecto forma parte de una practica de recuperacion de software legado.
+Este repositorio contiene el trabajo de recuperacion, analisis y adaptacion del entorno educativo **Karel el Robot** para MS-DOS, escrito originalmente en **GW-BASIC** en los años 90. El proyecto forma parte de una practica de recuperacion de software legado.
 
 ---
 
