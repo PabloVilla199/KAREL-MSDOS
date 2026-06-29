@@ -1,0 +1,54 @@
+ 50 
+principio_programa
+nueva_instruccion derecha como
+principio
+     repetir 3 veces izquierda
+final;
+nueva_instruccion posicionarse como
+principio
+     derecha;
+     avanzar;
+     derecha
+final;
+nueva_instruccion siguiente como
+principio
+     izquierda;
+     avanzar;
+     izquierda
+final;
+nueva_instruccion recolectar1 como
+principio
+     coger_emisor;
+     avanzar;
+     coger_emisor;
+     avanzar;
+     coger_emisor;
+     avanzar;
+     coger_emisor;
+     avanzar;
+     coger_emisor
+final;
+nueva_instruccion recolectar2 como
+principio
+     recolectar1;
+     siguiente;
+     recolectar1
+final;
+principio_ejecucion
+     avanzar;
+     recolectar2;
+     posicionarse;
+     recolectar2;
+     posicionarse;     
+     recolectar1;
+     avanzar;
+     desconectar
+final_ejecucion
+final_programa
+
+
+
+
+ectar2;
+     posicionarse;     
+     recolectar1

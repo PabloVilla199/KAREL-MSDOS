@@ -1,0 +1,105 @@
+ 104 
+PRINCIPIO-PROGRAMA
+     NUEVA-INSTRUCCION DERECHA COMO
+          PRINCIPIO REPETIR 3 VECES IZQUIERDA
+          FINAL;
+     NUEVA-INSTRUCCION SUBIR-ESCALON COMO
+          PRINCIPIO
+               IZQUIERDA;
+               AVANZAR;
+               DERECHA;
+               AVANZAR
+          FINAL;
+     NUEVA-INSTRUCCION BAJAR-ESCALON COMO
+          PRINCIPIO
+               DERECHA;
+               AVANZAR;
+               IZQUIERDA;
+               AVANZAR
+          FINAL;
+PRINCIPIO-EJECUCION
+     MIENTRAS FRENTE-SIN-MURO HACER AVANZAR;
+     MIENTRAS FRENTE-CON-MURO HACER SUBIR-ESCALON;
+     DEJAR-EMISOR;
+     AVANZAR;
+     MIENTRAS DERECHA-SIN-MURO HACER BAJAR-ESCALON;
+     DESCONECTAR
+FINAL-EJECUCION
+FINAL-PROGRAMA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

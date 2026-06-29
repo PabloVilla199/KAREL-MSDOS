@@ -1,0 +1,67 @@
+ 59 
+PRINCIPIO_PROGRAMA
+
+NUEVA_INSTRUCCION derecha como
+     PRINCIPIO
+     REPETIR 3 veces IZQUIERDA
+     FINAL;
+
+NUEVA_INSTRUCCION torcer como
+     PRINCIPIO
+     IZQUIERDA;     
+     IZQUIERDA
+     FINAL;
+
+NUEVA_INSTRUCCION diagonal como
+     PRINCIPIO
+     si MIRANDO_AL_OESTE ENTONCES derecha
+                         si_no    IZQUIERDA;
+     AVANZAR;
+     torcer
+     FINAL;
+
+NUEVA_INSTRUCCION zigl como
+     PRINCIPIO
+     AVANZAR;
+     derecha;
+     AVANZAR;
+     IZQUIERDA
+     FINAL;
+
+NUEVA_INSTRUCCION zagd como
+     PRINCIPIO
+     AVANZAR;
+     IZQUIERDA;
+     AVANZAR;
+     derecha
+     FINAL;
+
+NUEVA_INSTRUCCION zigm como
+     PRINCIPIO
+     si FRENTE_SIN_MURO ENTONCES zigl
+                        si_no    diagonal
+     FINAL;
+
+NUEVA_INSTRUCCION zagm como
+     PRINCIPIO
+     si FRENTE_SIN_MURO ENTONCES zagd
+                        si_no    diagonal
+     FINAL;
+
+PRINCIPIO_EJECUCION
+     MIENTRAS ESQUINA_SIN_EMISORES HACER
+          si MIRANDO_AL_OESTE ENTONCES zigm
+                              si_no    zagm;
+     COGER_EMISOR;
+     DESCONECTAR
+     FINAL_EJECUCION
+
+FINAL_PROGRAMA
+
+
+                              si_no    zagm;
+     COGER_EMISOR;
+     DESCONECTAR
+     FINAL_EJECUCION
+
+FINAL_
